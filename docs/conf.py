@@ -1,5 +1,5 @@
 
-import os
+#import os
 import sphinx_rtd_theme
 
 project = 'GRACE-FO'
@@ -12,17 +12,17 @@ extensions = ['nbsphinx','sphinx.ext.autosectionlabel']
 
 templates_path = ['_templates']
 exclude_patterns = []
-
+master_doc = 'index'
 
 # Detect RTD project to set master_doc
-rtd_project = os.environ.get('READTHEDOCS_PROJECT')
+#rtd_project = os.environ.get('READTHEDOCS_PROJECT')
 
-if rtd_project == 'l1':
-    master_doc = 'L1/index'
-elif rtd_project == 'l2':
-    master_doc = 'L2/index'
-else:
-    master_doc = 'index'
+#if rtd_project == 'l1':
+#    master_doc = 'L1/index'
+#elif rtd_project == 'l2':
+#    master_doc = 'L2/index'
+#else:
+#    master_doc = 'index'
 
 
 
