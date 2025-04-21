@@ -1,5 +1,5 @@
 
-Welcome to MyProject's documentation!
+Welcome to GRACE-FO documentation
 =====================================
 
 .. toctree::
